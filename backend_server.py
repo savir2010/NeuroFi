@@ -38,7 +38,7 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 ICLOUD_APP_PASSWORD = os.getenv("ICLOUD_APP_PASSWORD")
 
 # Configure Gemini AI
-genai.configure(api_key="AIzaSyDjptmL4a1eMDHye-TkRZtyLxvW4JdHOGo")
+genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-pro-001")
 
 TIMEZONE = pytz.timezone("America/Los_Angeles")
