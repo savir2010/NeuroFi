@@ -1,0 +1,15 @@
+{
+    "labels": [
+        "sadness",
+        "frustration"
+    ],
+    "stress_percentage": 97,
+    "boredom_percentage": 13,
+    "emotion_scores": {
+        "Anxiety": 25.747955013972035,
+        "Calmness": 24.192378724041838,
+        "Sadness": 27.94410358288293,
+        "Anger": 14.990425391171286,
+        "Fear": 1.2325806999089342
+    }
+}
